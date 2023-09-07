@@ -13,7 +13,7 @@
 > The pipeline proceeds to export the transformed data into Google BigQuery. The export_data_to_big_query function is employed for this purpose. Configuration settings are specified in the io_config.yaml file, enabling seamless integration with BigQuery. The fact table and dimension tables are populated in the BigQuery dataset, facilitating efficient querying.
 
 # SQL Querying
-The processed data within BigQuery becomes the foundation for conducting complex SQL queries. A representative example of SQL querying is provided in the pipeline, where the fact_table is joined with the dimension tables to extract meaningful insights. Additional queries can be crafted to explore patterns, trends, and relationships within the data.
+> The processed data within BigQuery becomes the foundation for conducting complex SQL queries. A representative example of SQL querying is provided in the pipeline, where the fact_table is joined with the dimension tables to extract meaningful insights. Additional queries can be crafted to explore patterns, trends, and relationships within the data.
 
 # Looker Dashboard Creation
 > To present the findings effectively, a Looker dashboard is generated. The Looker platform interfaces with the processed data in BigQuery, allowing users to create interactive visualizations, reports, and dashboards. The Looker dashboard enables stakeholders to intuitively explore the Uber ride data and glean valuable business insights.
